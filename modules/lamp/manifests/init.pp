@@ -40,7 +40,7 @@ file { '/var/www/html/info.php':
 <body>
 
 <?php
-echo "My first PHP script! 3";
+echo "My first PHP script! 4";
 ?>
 
 </body>
