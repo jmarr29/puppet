@@ -40,7 +40,7 @@ file { '/var/www/html/info.php':
 <body>
 
 <?php
-echo "My first PHP script!";
+echo "My first PHP script! after my first puppet update!";
 ?>
 
 </body>
