@@ -16,13 +16,13 @@ service { 'httpd':
 }
 
 # install mysql-server package
-package { 'mysql':
+package { 'mysql-server':
   require => Exec['yum-update'],        # require 'apt-update' before installing
   ensure => installed,
 }
 # ensure mysql service is running
 service { 'mysqld':
-  require => Package['mysql'],
+  require => Package['mysql-server'],
   ensure => running,
 }
  
